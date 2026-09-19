@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    animation: saim 3.5s linear infinite reverse;
+    background-color: rgb(25, 6, 43);
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZEYrpsRERcp-_EE52CgcyigG5TJDdXkylK_luSOvjse33-P0B8f5eYhrn&s=10");
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    padding: 20px 20px;
+    border: 2px solid rgb(136, 136, 136);
+    border-radius: 15px;
+    width: 20rem;
+    background: transparent;
+    backdrop-filter: blur(15px);
+}
+
+#inputbox{
+    width: 84%;
+    border-radius: 15px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    font-size: 2.4em;
+    margin-bottom: 6%;
+    font-weight: bold;
+    padding: 24px;
+    text-align: right;
+}
+
+#inputbox::placeholder{
+    color: white;
+    text-align: right;
+}
+
+button{
+    height: 4rem;
+    width: 4rem;
+    font-size: 1.5em;
+    margin: 2%;
+    color:  white;
+    border-radius: 50%;
+    background-color: black;
+    border: none;
+}
+
+#evelbtn{
+    background-color: orange;
+    color: black;
+    font-size: 1.9em;
+}
+
+.operator{
+    color: green;
+}
